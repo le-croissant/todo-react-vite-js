@@ -1,0 +1,30 @@
+:root {
+  --font-heading: "Roboto Serif", sans-serif;
+  --font-text: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-text);
+}
+
+h1,
+h2 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
+input,
+textarea,
+button {
+  font-family: var(--font-text);
+}
+
+button {
+  cursor: pointer;
+}
